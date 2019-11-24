@@ -28,4 +28,3 @@ def prompt_color(fg_color = '',bg_color = '',style = 0,clear = True):
         strBody = strBody + ';' + str(bg_color)
     body = strInit + strBody + strEnd
     call('printf ' + "''" + '"' + body + '"' + (';clear' if clear else ''),shell=True) 
-
