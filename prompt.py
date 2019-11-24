@@ -44,3 +44,10 @@ def cd(path=''):
     else:
     	print('{} does not exist.'.format(path))
 
+def clear():
+    '''Clear screen Python Linux
+
+    @USAGE\tclear()'''
+    import os
+    os.system('clear')
+

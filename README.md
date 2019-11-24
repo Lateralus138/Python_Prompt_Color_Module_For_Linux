@@ -14,6 +14,10 @@
   - Change directory
   - Defaults to $HOME
 
+- Added 'clear' function
+  - Clear Screen for Python Linux
+  - Prints error on non exist or permission issues
+
 ## USAGE
 
 This module can be imported from file and/or the function can be stripped &amp; used in your script.
@@ -23,6 +27,8 @@ This module can be imported from file and/or the function can be stripped &amp; 
 ![alt text](images/pyprompt_help.png "help(prompt_command)")
 
 ![alt text](images/prompt_cd_help.png "help(cd)")
+
+![alt text](images/prompt_clear_help.png "clear(cd)")
 
 ## Import examples
 
