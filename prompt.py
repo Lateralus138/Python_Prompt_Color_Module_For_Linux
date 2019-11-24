@@ -29,3 +29,18 @@ def prompt_color(fg_color = '',bg_color = '',style = 0,clear = True):
     body = strInit + strBody + strEnd
     call('printf ' + "''" + '"' + body + '"' + (';clear' if clear else ''),shell=True) 
 
+def cd(path=''):
+    '''Change Directory for Python
+    
+    @USAGE:\tcd(<PATH>)'''
+    import os
+    if path == '':
+        path = os.environ['HOME']
+    if os.path.isdir(path):
+        try:
+            os.chdir(path)
+        except:
+            print('Permission denied.')
+    else:
+    	print('{} does not exist.'.format(path))
+

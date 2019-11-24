@@ -2,6 +2,18 @@
 
 'prompt' is a module for Linux Python interpreter that helps with manipulating the interpreters prompt. I will be adding features, but for the time being the only feature is 'prompt_color'&#59; a way to change the foregorund &amp; background colors with a couple of features.
 
+## Updates
+
+- Added 'prompt_color' function
+  - Change foreground color
+  - Change background color
+  - Change style effect
+  - Clear the screen, useful for setting background
+
+- Added 'cd' function
+  - Change directory
+  - Defaults to $HOME
+
 ## USAGE
 
 This module can be imported from file and/or the function can be stripped &amp; used in your script.
@@ -9,6 +21,8 @@ This module can be imported from file and/or the function can be stripped &amp; 
 ## Help
 
 ![alt text](images/pyprompt_help.png "help(prompt_command)")
+
+![alt text](images/prompt_cd_help.png "help(cd)")
 
 ## Import examples
 
